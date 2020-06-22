@@ -1,0 +1,3 @@
+'.source.80960asm':
+  'editor':
+    'commentStart': '// '

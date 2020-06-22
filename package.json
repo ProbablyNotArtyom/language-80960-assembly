@@ -1,0 +1,11 @@
+{
+  "name": "language-80960-assembly",
+  "version": "1.0.4",
+  "description": "Language support for 80960/i960 assembly.",
+  "repository": "https://github.com/ProbablyNotArtyom/language-80960-assembly",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}
