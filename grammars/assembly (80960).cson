@@ -11,7 +11,7 @@
   }
   {
     'match': '(?i)(?x)(\\s*)\\b(?:ld(ob|os|ib|is|l|t|q)?|st(ob|os|ib|is|l|t|q)?|mov(l|t|q)?|lda|add(i|o|c)|sub(i|o|c)|mul(i|o)|div(i|o)|e(mul|div)|rem(i|o)|modi|sh(lo|ro|li|ri|rdi)|rotate|eshro|and|notand|andnot|xor|or|nor|xnor|not|notor|ornot|nand|(set|clr|not|alter|scan|span)bit|extract|modify|scanbyte|cmp(i|o)|concmp(i|o)|chkbit|cmpinc(i|o)|cmpdec(i|o)|test(e|ne|l|le|g|ge|o|no)|b(x|al|alx)?|b(e|ne|l|le|g|ge|o|no|bs|bc)?\\.[tf]|cmpib(e|ne|l|le|g|ge|o|no)\\.[tf]|cmpob(e|ne|l|le|g|ge)\\.[tf]|call(x|s)?|ret|fault(e|ne|l|le|g|ge|o|no)\\.[tf]|mod(pc|tc|ac)|mark|fmark|flushreg|sysctl|sdma|udma)\\b'
-    'name': 'keyword.80960.assembly'
+    'name': 'keyword.mnemonic.80960.assembly'
   }
   {
     'match': '^[_a-zA-Z][a-zA-Z0-9-_.]*(?=:)'
