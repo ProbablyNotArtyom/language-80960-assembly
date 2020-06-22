@@ -10,7 +10,7 @@
     'name': 'variable.registers.80960.assembly'
   }
   {
-    'match': '(?i)(?x)(\\s*)\\b(?:aaa|aad|aam|aas|adc|adcb|adcl|adcq|adcw|add|addb|addl|addq|addw|and|andb|andl|andn|andnl|andnq|andq|andw|arpl|arplw|bextr|bextrl|bextrq|blcfill|blcfilll|blcfillq|blci|blcic|blcicl|blcicq|blcil|blciq|blcmsk|blcmskl|blcmskq|blcs|blcsl|blcsq|blsfill|blsfilll|blsfillq|blsi|blsic|blsicl|blsicq|blsil|blsiq|blsmsk|blsmskl|blsmskq|blsr|blsrl|blsrq|bound|boundl|boundw|bsf|bsfl|bsfq|bsfw|bsr|bsrl|bsrq|bsrw|bswap|bswapl|bswapq|bt|btc|btcl|btcq|btcw|btl|btq|btr|btrl|btrq|btrw|bts|btsl|btsq|btsw|btw|bzhi|bzhil|bzhiq|call|calll|callld|callq|callw|cbtw|cbw|cdq|cdqe|clc|cld|clflush|clgi|cli|clr|clrb|clrl|clrq|clrw|cltd|cltq|clts|cmc|cmova|cmovae|cmovael|cmovaeq|cmovaew|cmoval|cmovaq|cmovaw|cmovb|cmovbe|cmovbel|cmovbeq|cmovbew|cmovbl|cmovbq|cmovbw|cmovc|cmovcl|cmovcq|cmovcw|cmove|cmovel|cmoveq|cmovew|cmovg|cmovge|cmovgel|cmovgeq|cmovgew|cmovgl|cmovgq|cmovgw|cmovl|cmovle|cmovlel|cmovleq|cmovlew|cmovll|cmovlq|cmovlw|cmovna|cmovnae|cmovnael|cmovnaeq|cmovnaew|cmovnal|cmovnaq|cmovnaw|cmovnb|cmovnbe|cmovnbel|cmovnbeq|cmovnbew|cmovnbl|cmovnbq|cmovnbw|cmovnc|cmovncl|cmovncq|cmovncw|cmovne|cmovnel|cmovneq|cmovnew|cmovng|cmovnge|cmovngel|cmovngeq|cmovngew|cmovngl|cmovngq|cmovngw|cmovnl|cmovnle|cmovnlel|cmovnleq|cmovnlew|cmovnll|cmovnlq|cmovnlw|cmovno|cmovnol|cmovnoq|cmovnow|cmovnp|cmovnpl|cmovnpq|cmovnpw|cmovns|cmovnsl|cmovnsq|cmovnsw|cmovnz|cmovnzl|cmovnzq|cmovnzw|cmovo|cmovol|cmovoq|cmovow|cmovp|cmovpe|cmovpel|cmovpeq|cmovpew|cmovpl|cmovpo|cmovpol|cmovpoq|cmovpow|cmovpq|cmovpw|cmovs|cmovsl|cmovsq|cmovsw|cmovz|cmovzl|cmovzq|cmovzw|cmp|cmpb|cmpl|cmpq|cmps|cmpsb|cmpsd|cmpsl|cmpsq|cmpsw|cmpw|cmpxchg|cmpxchg16b|cmpxchg8b|cmpxchg8bq|cmpxchgb|cmpxchgl|cmpxchgq|cmpxchgw|cpuid|cqo|cqto|crc32|crc32b|crc32l|crc32q|crc32w|cwd|cwde|cwtd|cwtl|daa|das|dec|decb|decl|decq|decw|div|divb|divl|divq|divw|emms|enter|enterl|enterq|enterw|fcmova|fcmovae|fcmovb|fcmovbe|fcmove|fcmovna|fcmovnae|fcmovnb|fcmovnbe|fcmovne|fcmovnu|fcmovu|fcomi|fcomip|fcompi|fcos|fdisi|femms|feni|ffreep|fisttp|fisttpl|fisttpll|fisttpq|fisttps|fndisi|fneni|fnsetpm|fnstsw|fprem1|frstpm|fsetpm|fsin|fsincos|fstsw|fucom|fucomi|fucomip|fucomp|fucompi|fucompp|fxrstor|fxrstor64|fxrstor64q|fxrstorq|fxsave|fxsave64|fxsave64q|fxsaveq|getsec|hlt|idiv|idivb|idivl|idivq|idivw|imul|imulb|imull|imulq|imulw|in|inb|inc|incb|incl|incq|incw|inl|ins|insb|insl|insw|int|int3|into|invd|invept|invlpg|invlpga|invpcid|invvpid|inw|iret|iretl|iretq|iretw|ja|jae|jb|jbe|jc|jcxz|je|jecxz|jg|jge|jl|jle|jmp|jmpl|jmpld|jmpq|jmpw|jna|jnae|jnb|jnbe|jnc|jne|jng|jnge|jnl|jnle|jno|jnp|jns|jnz|jo|jp|jpe|jpo|jrcxz|js|jz|lahf|lar|larl|larq|larw|lcall|lcalll|lcallw|ldmxcsr|lds|ldsl|ldsw|lea|leal|leaq|leave|leavel|leaveq|leavew|leaw|les|lesl|lesw|lfence|lfs|lfsl|lfsw|lgdt|lgdtl|lgdtq|lgdtw|lgs|lgsl|lgsw|lidt|lidtl|lidtq|lidtw|ljmp|ljmpl|ljmpw|lldt|lldtw|llwpcb|lmsw|lmsww|lods|lodsb|lodsl|lodsq|lodsw|loop|loope|loopel|loopeq|loopew|loopl|loopne|loopnel|loopneq|loopnew|loopnz|loopnzl|loopnzq|loopnzw|loopq|loopw|loopz|loopzl|loopzq|loopzw|lret|lretl|lretq|lretw|lsl|lsll|lslq|lslw|lss|lssl|lssw|ltr|ltrw|lwpins|lwpval|lzcnt|lzcntl|lzcntq|lzcntw|mfence|monitor|montmul|mov|movabs|movabsb|movabsl|movabsq|movabsw|movb|movbe|movbel|movbeq|movbew|movl|movnti|movntil|movntiq|movq|movs|movsb|movsbl|movsbq|movsbw|movsd|movsl|movslq|movsq|movsw|movswl|movswq|movsx|movsxb|movsxd|movsxdl|movsxl|movsxw|movw|movzb|movzbl|movzbq|movzbw|movzwl|movzwq|movzx|movzxb|movzxw|mul|mulb|mull|mulq|mulw|mulx|mulxl|mulxq|mwait|neg|negb|negl|negq|negw|nop|nopl|nopq|nopw|not|notb|notl|notq|notw|or|orb|orl|orq|orw|out|outb|outl|outs|outsb|outsl|outsw|outw|pause|pdep|pdepl|pdepq|pext|pextl|pextq|pop|popa|popal|popaw|popcnt|popcntl|popcntq|popcntw|popf|popfl|popfq|popfw|popl|popq|popw|prefetch|prefetchnta|prefetcht0|prefetcht1|prefetcht2|prefetchw|push|pusha|pushal|pushaw|pushf|pushfl|pushfq|pushfw|pushl|pushq|pushw|rcl|rclb|rcll|rclq|rclw|rcr|rcrb|rcrl|rcrq|rcrw|rdfsbase|rdgsbase|rdmsr|rdpmc|rdrand|rdtsc|rdtscp|ret|retf|retfl|retfq|retfw|retl|retq|retw|rol|rolb|roll|rolq|rolw|ror|rorb|rorl|rorq|rorw|rorx|rorxl|rorxq|rsm|sahf|sal|salb|sall|salq|salw|sar|sarb|sarl|sarq|sarw|sarx|sarxl|sarxq|sbb|sbbb|sbbl|sbbq|sbbw|scas|scasb|scasl|scasq|scasw|scmp|scmpb|scmpl|scmpq|scmpw|seta|setab|setae|setaeb|setb|setbb|setbe|setbeb|setc|setcb|sete|seteb|setg|setgb|setge|setgeb|setl|setlb|setle|setleb|setna|setnab|setnae|setnaeb|setnb|setnbb|setnbe|setnbeb|setnc|setncb|setne|setneb|setng|setngb|setnge|setngeb|setnl|setnlb|setnle|setnleb|setno|setnob|setnp|setnpb|setns|setnsb|setnz|setnzb|seto|setob|setp|setpb|setpe|setpeb|setpo|setpob|sets|setsb|setz|setzb|sfence|sgdt|sgdtl|sgdtq|sgdtw|shl|shlb|shld|shldl|shldq|shldw|shll|shlq|shlw|shlx|shlxl|shlxq|shr|shrb|shrd|shrdl|shrdq|shrdw|shrl|shrq|shrw|shrx|shrxl|shrxq|sidt|sidtl|sidtq|sidtw|skinit|sldt|sldtl|sldtq|sldtw|slod|slodb|slodl|slodq|slodw|slwpcb|smov|smovb|smovl|smovq|smovw|smsw|smswl|smswq|smsww|ssca|sscab|sscal|sscaq|sscaw|ssto|sstob|sstol|sstoq|sstow|stc|std|stgi|sti|stmxcsr|stos|stosb|stosl|stosq|stosw|str|strl|strq|strw|sub|subb|subl|subq|subw|swapgs|syscall|sysenter|sysexit|sysret|sysretl|sysretq|t1mskc|t1mskcl|t1mskcq|test|testb|testl|testq|testw|tzcnt|tzcntl|tzcntq|tzcntw|tzmsk|tzmskl|tzmskq|ud1|ud2|ud2a|ud2b|verr|verrw|verw|verww|vldmxcsr|vmcall|vmclear|vmfunc|vmlaunch|vmload|vmmcall|vmptrld|vmptrst|vmread|vmreadl|vmreadq|vmresume|vmrun|vmsave|vmwrite|vmwritel|vmwriteq|vmxoff|vmxon|vstmxcsr|vzeroall|vzeroupper|wbinvd|wrfsbase|wrgsbase|wrmsr|xabort|xadd|xaddb|xaddl|xaddq|xaddw|xbegin|xchg|xchgb|xchgl|xchgq|xchgw|xcrypt-cbc|xcrypt-cfb|xcrypt-ctr|xcrypt-ecb|xcrypt-ofb|xcryptcbc|xcryptcfb|xcryptctr|xcryptecb|xcryptofb|xend|xgetbv|xlat|xlatb|xor|xorb|xorl|xorq|xorw|xrstor|xrstor64|xrstor64q|xrstorq|xsave|xsave64|xsave64q|xsaveopt|xsaveopt64|xsaveopt64q|xsaveoptq|xsaveq|xsetbv|xsha1|xsha256|xstore|xstore-rng|xstorerng|xtest)\\b'
+    'match': '(?i)(?x)(\\s*)\\b(?:ld(ob|os|ib|is|l|t|q)?|st(ob|os|ib|is|l|t|q)?|mov(l|t|q)?|lda|add(i|o|c)|sub(i|o|c)|mul(i|o)|div(i|o)|e(mul|div)|rem(i|o)|modi|sh(lo|ro|li|ri|rdi)|rotate|eshro|and|notand|andnot|xor|or|nor|xnor|not|notor|ornot|nand|(set|clr|not|alter|scan|span)bit|extract|modify|scanbyte|cmp(i|o)|concmp(i|o)|chkbit|cmpinc(i|o)|cmpdec(i|o)|test(e|ne|l|le|g|ge|o|no)|b(x|al|alx)?|b(e|ne|l|le|g|ge|o|no|bs|bc)?\\.[tf]|cmpib(e|ne|l|le|g|ge|o|no)\\.[tf]|cmpob(e|ne|l|le|g|ge)\\.[tf]|call(x|s)?|ret|fault(e|ne|l|le|g|ge|o|no)\\.[tf]|mod(pc|tc|ac)|mark|fmark|flushreg|sysctl|sdma|udma)\\b'
     'name': 'keyword.80960.assembly'
   }
   {
@@ -22,20 +22,37 @@
     'name': 'entity.name.function.80960.assembly'
   }
   {
-    'match': '^\\s*(?:\\.abort|\\.align|\\.ascii|\\.asciz|\\.balign[wl]?|\\.byte|\\.comm|\\.data|\\.def|\\.dim|\\.double|\\.eject|\\.else|\\.end|\\.elseif|\\.endef|\\.endfunc|\\.endif|\\.endm|\\.endr|\\.equ|\\.equiv|\\.err|\\.even|\\.exitm|\\.extern|\\.fail|\\.file|\\.fill|\\.float|\\.func|\.global|\\.hword|\\.ident|\\.if|\\.include|\\.incbin|\\.int|\\.irp|\\.irpc|\\.lcomm|\\.lflags|\\.line|\\.ln|\\.list|\\.long|\\.macro|\\.mri|\\.nolist|\\.octa|\\.org|\\.p2align[wl]?|\\.print|\\.psize|\\.purgem|\\.quad|\\.rept|\\.sbttl|\\.scl|\\.section|\\.set|\\.short|\\.single|\\.size|\\.sleb128|\\.skip|\\.space|\\.stabd|\\.stabn|\\.stabs|\\.string|\\.struct|\\.tag|\\.text|\\.title|\\.type|\\.uleb128|\\.val|\\.vtable_entry|\\.word|\\.tc)\\b'
-    'name': 'meta.preprocessor.80960.assembly'
-  }
-  {
     'match': '(\\/\\/).*$'
     'name': 'comment.80960.assembly'
+  }
+  {
+	# Preprocessor directives
+    'match': '^\\s*(?:\\.abort|\\.align|\\.ascii|\\.asciz|\\.balign[wl]?|\\.byte|\\.comm|\\.data|\\.def|\\.dim|\\.double|\\.eject|\\.else|\\.end|\\.elseif|\\.endef|\\.endfunc|\\.endif|\\.endm|\\.endr|\\.equ|\\.equiv|\\.err|\\.even|\\.exitm|\\.extern|\\.fail|\\.file|\\.fill|\\.float|\\.func|\.global|\\.hword|\\.ident|\\.if|\\.include|\\.incbin|\\.int|\\.irp|\\.irpc|\\.lcomm|\\.lflags|\\.line|\\.ln|\\.list|\\.long|\\.macro|\\.mri|\\.nolist|\\.octa|\\.org|\\.p2align[wl]?|\\.print|\\.psize|\\.purgem|\\.quad|\\.rept|\\.sbttl|\\.scl|\\.section|\\.set|\\.short|\\.single|\\.size|\\.sleb128|\\.skip|\\.space|\\.stabd|\\.stabn|\\.stabs|\\.string|\\.struct|\\.tag|\\.text|\\.title|\\.type|\\.uleb128|\\.val|\\.vtable_entry|\\.word|\\.tc)\\b'
+    'name': 'support.class.80960.assembly'
+  }
+  {
+	# These are for capturing strings
+    'begin': '"'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.ppc.assembly'
+    'end': '"'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.ppc.assembly'
+    'name': 'string.quoted.double.include.ppc.assembly'
   }
   {
     'match': '[*$](?=0x)'
     'name': 'storage.type.method.80960.assembly'
   }
   {
-    'match': '\\b(?:0x)?[0-9a-fA-F]+\\b'
-    'name': 'constant.numeric.80960.assembly'
+    'match': '-?\\b[0-9]+\\b'
+    'name': 'constant.numeric.dec.80960.assembly'
+  }
+  {
+    'match': '-?\\b0(x|X)[0-9a-fA-F]*\\b'
+    'name': 'constant.numeric.hex.80960.assembly'
   }
 ]
 'scopeName': 'source.80960asm'
